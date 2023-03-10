@@ -95,10 +95,10 @@ if __name__ == '__main__':
 
 
 
-    plt.plot(history.history['accuracy'])
-    plt.plot(history.history['val_accuracy'])
-    plt.title("Model Accuracy")
-    plt.ylabel("Accuracy")
-    plt.xlabel("Epoch")
-    plt.legend(['Train','Test'],loc='uppper left')
-    plt.show()
+#     plt.plot(history.history['accuracy'])
+#     plt.plot(history.history['val_accuracy'])
+#     plt.title("Model Accuracy")
+#     plt.ylabel("Accuracy")
+#     plt.xlabel("Epoch")
+#     plt.legend(['Train','Test'],loc='uppper left')
+#     plt.show()
