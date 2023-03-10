@@ -2,13 +2,11 @@ import os,matplotlib.pyplot as plt
 import cv2
 import tensorflow as tf
 import keras
-from keras.layers import Conv2D, BatchNormalization, Dense, Activation, GlobalAveragePooling2D, GlobalMaxPooling2D, MaxPooling2D, Conv2DTranspose
+from keras.layers import Conv2D, BatchNormalization, Dense, Activation, GlobalAveragePooling2D
 from keras.preprocessing.image import ImageDataGenerator, image_dataset_from_directory
 from keras.models import Model
 from keras.callbacks import Callback, EarlyStopping, ModelCheckpoint
 from tensorflow.keras.optimizers import SGD 
-
-
 from keras.applications.vgg16 import VGG16
 from keras.applications.xception import Xception
 from keras.applications.densenet import DenseNet121
